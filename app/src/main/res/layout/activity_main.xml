@@ -4,18 +4,23 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/from"
-        android:text="Happy Birthday Atlas"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="40dp"/>
+
 
     <ImageView
         android:id="@+id/image"
         android:src="@drawable/androidparty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/from"
+        android:text="Happy Birthday Atlas!"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:textSize="36sp"
+        android:fontFamily="sans-serif"
+        android:textColor="@android:color/white" />
 
     <TextView
         android:id="@+id/to"
@@ -24,6 +29,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
-        android:textSize="40dp"/>
+        android:textSize="36sp"
+        android:fontFamily="sans-serif"
+        android:textColor="@android:color/white" />
 
 </RelativeLayout>
