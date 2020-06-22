@@ -20,7 +20,8 @@
         android:layout_height="wrap_content"
         android:textSize="36sp"
         android:fontFamily="sans-serif"
-        android:textColor="@android:color/white" />
+        android:textColor="@android:color/white"
+        android:layout_margin="20dp" />
 
     <TextView
         android:id="@+id/to"
@@ -31,6 +32,7 @@
         android:layout_alignParentRight="true"
         android:textSize="36sp"
         android:fontFamily="sans-serif"
-        android:textColor="@android:color/white" />
+        android:textColor="@android:color/white"
+        android:layout_margin="20dp" />
 
 </RelativeLayout>
